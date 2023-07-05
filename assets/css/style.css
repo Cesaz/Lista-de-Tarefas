@@ -1,0 +1,43 @@
+body {
+    background-color: #16181c;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container input {
+    width: 300px;
+    height: 30px;
+}
+
+.list li {
+    font-size: 20px;
+    text-align: left;
+}
+
+.personal_information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+}
+
+.personal_information span {
+    margin-top: 10px;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
